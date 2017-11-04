@@ -1,0 +1,9 @@
+REM k4li 
+STRING unsignedlong fibo(int n){
+STRING     int i = 3;
+STRING     int j = 0;
+STRING     if(j == 2){
+STRING         printf("something");
+STRING     }
+STRING     return 0.1;
+STRING }
