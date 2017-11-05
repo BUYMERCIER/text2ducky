@@ -4,7 +4,7 @@
 Simply want to use the rubber ducky to paste some text?  
 Use text2ducky.py python script to do so.
 
-### How to use it
+## How to use it
 
 Copy the **text2ducky.py** file to your computer and type the following command:  
 ```

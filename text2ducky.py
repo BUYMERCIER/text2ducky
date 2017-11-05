@@ -18,7 +18,7 @@ def main(input_file):
         os.system("rm inject.txt")
     
     f = open("inject.txt", "w")
-    f.write("REM k4li \n")
+    f.write("REM k4li \n\n")
     # opens the input file
     input_file_open = open(input_file, "r")
     for line in input_file_open:
