@@ -1,9 +1,17 @@
 REM k4li 
 STRING unsignedlong fibo(int n){
+ENTER
 STRING     int i = 3;
+ENTER
 STRING     int j = 0;
+ENTER
 STRING     if(j == 2){
+ENTER
 STRING         printf("something");
+ENTER
 STRING     }
+ENTER
 STRING     return 0.1;
+ENTER
 STRING }
+ENTER

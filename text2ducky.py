@@ -23,6 +23,7 @@ def main(input_file):
     input_file_open = open(input_file, "r")
     for line in input_file_open:
         f.write("STRING " + line)
+        f.write("ENTER\n")
     return True
 
 # the program
