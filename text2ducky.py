@@ -19,11 +19,12 @@ def main(input_file):
     
     f = open("inject.txt", "w")
     f.write("REM k4li \n\n")
+    f.write("\nDELAY 1000\n\n") # 1 second of delay before starting typing
     # opens the input file
     input_file_open = open(input_file, "r")
     for line in input_file_open:
         f.write("STRING " + line)
-        f.write("ENTER\n")
+        f.write("ENTER\nDELAY 50\n")
     return True
 
 # the program
