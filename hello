@@ -1,8 +1,0 @@
-unsignedlong fibo(int n){
-    int i = 3;
-    int j = 0;
-    if(j == 2){
-        printf("something");
-    }
-    return 0.1;
-}
